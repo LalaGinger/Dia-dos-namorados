@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal */
+.wrapper {
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* GIF */
+.gif {
+    width: 250px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Estilo dos botões */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Botão Yes */
+.yes-btn {
+    background-color: #0bcd1f;
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: #6d0549;
+}
+
+/* Botão No */
+.no-btn {
+    background-color: #efe709;
+    color: black;
+    position: absolute;
+}
+
+.no-btn:hover {
+    background-color: #fd1313;
+}
